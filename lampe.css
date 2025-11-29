@@ -1,0 +1,48 @@
+body {
+    background-color: #f4e9d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.bulb-off {
+    width: 100px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 50% 50% 20% 20%;
+    position: relative;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #eee, #bbb);
+}
+
+.bulb-on {
+    width: 100px;
+    height: 150px;
+    background-color: #ffeb3b;
+    border-radius: 50% 50% 20% 20%;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 0 50px #ffeb3b;
+}
+
+.cord {
+    width: 2px;
+    height: 100px;
+    background-color: #333;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+.status {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
